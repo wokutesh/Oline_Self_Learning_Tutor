@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800px" height="600px" viewBox="0 0 800 600" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <g id="student-illustration" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <!-- Background elements -->
+        <circle fill="#E3F2FD" cx="400" cy="300" r="250"/>
+        
+        <!-- Student figure -->
+        <g transform="translate(250, 150)">
+            <!-- Laptop -->
+            <rect fill="#BBDEFB" x="100" y="200" width="200" height="120" rx="8"/>
+            <rect fill="#90CAF9" x="100" y="200" width="200" height="20"/>
+            
+            <!-- Person -->
+            <circle fill="#FFB74D" cx="200" cy="150" r="50"/> <!-- Head -->
+            <path d="M150,200 Q200,280 250,200" stroke="#FFB74D" stroke-width="20" fill="none"/> <!-- Body -->
+            <rect fill="#90CAF9" x="150" y="200" width="100" height="80" rx="4"/> <!-- Shirt -->
+            
+            <!-- Study elements -->
+            <circle fill="#81C784" cx="100" cy="100" r="20"/> <!-- Study element 1 -->
+            <circle fill="#E57373" cx="300" cy="100" r="20"/> <!-- Study element 2 -->
+            <circle fill="#FFD54F" cx="150" cy="80" r="15"/> <!-- Study element 3 -->
+            <circle fill="#7986CB" cx="250" cy="80" r="15"/> <!-- Study element 4 -->
+        </g>
+    </g>
+</svg> 
