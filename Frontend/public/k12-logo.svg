@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120" height="40" viewBox="0 0 120 40" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <g id="k12-logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M20,8 L25,8 L25,18 L35,8 L42,8 L31,19 L42,32 L35,32 L27,22 L25,24 L25,32 L20,32 L20,8 Z" fill="#0066CC"/>
+        <path d="M45,8 L50,8 L50,18 L55,8 L60,8 L55,18 L60,32 L55,32 L52,22 L50,24 L50,32 L45,32 L45,8 Z" fill="#0066CC"/>
+        <circle cx="70" cy="20" r="12" fill="#FFB81C"/>
+        <text x="65" y="25" font-family="Arial" font-size="16" font-weight="bold" fill="#0066CC">12</text>
+    </g>
+</svg> 

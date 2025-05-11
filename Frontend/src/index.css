@@ -1,1 +1,36 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply font-body text-gray-900 antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center justify-center px-6 py-3 bg-k12-orange text-white font-display font-medium rounded-md hover:bg-opacity-90 transition-colors;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center px-6 py-3 bg-white text-k12-blue border border-k12-blue font-display font-medium rounded-md hover:bg-k12-light-blue transition-colors;
+  }
+
+  .nav-link {
+    @apply font-display font-medium hover:text-k12-blue transition-colors;
+  }
+}
+
+/* Custom styles */
+.hero-gradient {
+  background: linear-gradient(135deg, #0066CC 0%, #004C99 100%);
+}
